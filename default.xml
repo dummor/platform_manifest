@@ -4,7 +4,8 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <remote  name="dummor"
-           fetch="ssh://git@github.com/dummor/" />
+           fetch="ssh://git@github.com/dummor/"
+           revision="dummor-dev-sos_button" />
   <default revision="refs/tags/android-7.1.1_r24"
            remote="aosp"
            sync-j="4" />
